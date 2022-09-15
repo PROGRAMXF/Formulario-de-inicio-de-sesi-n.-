@@ -1,0 +1,24 @@
+body{
+    background: url(assets/foto.jpg) no-repeat center center fixed;
+    background-size: 100%;    
+
+}
+.container{
+    background-color: transparent;
+    position:relative;
+    /* en position relative el elemento es posicionado de acuerdo al flujo normal del documento, y luego es desplazado con relación a sí mismo */
+    text-align: center;
+}
+.titulo{
+    color: aliceblue;
+}
+#usuario{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+#contraseña{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
