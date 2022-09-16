@@ -9,11 +9,13 @@ function login(){
     pass = document.getElementById("contraseña").value;
 
 
-    if(user == "fernando" && pass == "1234"){
+    if(user == "fernando" && pass == "1111"){
 
         window.location = "principal.html";
 
     }else if(user != "fernando" && pass != "1234"){
-        alert("Usuario y contraseña equivocado");
+        alert("Usuario y contraseña equivocados");
+        
     }
 }
+
